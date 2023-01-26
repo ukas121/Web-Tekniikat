@@ -1,0 +1,39 @@
+body {
+    font-family: 'Quicksand';font-size: 22px;
+    background-color: black;
+}
+
+.carousel-inner{
+    margin: auto;
+    width: 50%;
+    
+
+}
+
+.carousel-item{
+    width: 100%;
+    height: 50%;
+   
+}
+
+/* Taustavideon asettelu  */
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;    
+    }
+    
+    /* Taustavideon asettelu eri aspecteihin  */
+    @media (min-aspect-ratio:3/1){
+    .back-video{
+        width: auto;
+        height: auto;
+    }
+    }
+    @media (max-aspect-ratio:16/10){
+    .back-video{
+        width: auto;
+        height: auto;
+    }
+    }
